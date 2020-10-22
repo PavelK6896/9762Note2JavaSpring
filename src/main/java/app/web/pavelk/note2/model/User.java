@@ -20,6 +20,9 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    @Column
+    private String email;
+
     @OneToMany(
             mappedBy = "user",
             cascade = CascadeType.ALL,

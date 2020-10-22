@@ -5,15 +5,18 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
+    <!--    выбор базы -->
     <!--    <preConditions>-->
     <!--        <dbms type="mysql"/>-->
     <!--    </preConditions>-->
 
+    <!--    создать тег-->
     <!--    <changeSet id="0" author="my_set">-->
     <!--        <tagDatabase tag="db_init"/>-->
     <!--    </changeSet>-->
 
     <!--    однин лог-->
     <include file="v1/changelog1.xml" relativeToChangelogFile="true"/>
+<!--    <include file="v2/changelog2.xml" relativeToChangelogFile="true"/>-->
 
 </databaseChangeLog>
